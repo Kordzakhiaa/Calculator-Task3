@@ -1,2 +1,2 @@
-# Amazing open source Android apps
-<img src="calc.png" width="800"/></a>
+# დერსკი კალკულატორიიი
+<img src="calc.png" width="500"/></a>
