@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#FFFF"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/result_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:textSize="30dp"
-        android:textAlignment="textEnd"
         android:lines="1"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +32,7 @@
             android:layout_height="70dp"
             android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#778899"
+            android:background="#255E78"
             android:gravity="center"
             android:onClick="onClear"
             android:text="Clear"
@@ -45,7 +45,7 @@
             android:layout_height="70dp"
             android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#778899"
+            android:background="#255E78"
             android:gravity="center"
             android:onClick="plusMinusSign"
             android:text="+/-"
@@ -58,7 +58,7 @@
             android:layout_height="70dp"
             android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#778899"
+            android:background="#255E78"
             android:gravity="center"
             android:onClick="sqrtSign"
             android:text="√"
@@ -71,7 +71,7 @@
             android:layout_height="70dp"
             android:layout_margin="1dp"
             android:layout_weight="1"
-            android:background="#778899"
+            android:background="#255E78"
             android:gravity="center"
             android:onClick="operationClick"
             android:text="/"
@@ -97,8 +97,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:onClick="numberClick"
+                android:background="#46FF00"
                 android:gravity="center"
+                android:onClick="numberClick"
                 android:text="7"
                 android:textColor="#FFFFFF"
                 android:textSize="42sp" />
@@ -107,6 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="8"
@@ -117,6 +119,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
+
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="9"
@@ -127,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:background="#778899"
+                android:background="#0F7DAF"
                 android:gravity="center"
                 android:onClick="operationClick"
                 android:text="*"
@@ -146,6 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="4"
@@ -155,9 +160,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:onClick="numberClick"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
+                android:onClick="numberClick"
                 android:text="5"
                 android:textColor="#FFFFFF"
                 android:textSize="42sp" />
@@ -166,20 +172,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
+                android:onClick="numberClick"
                 android:text="6"
                 android:textColor="#FFFFFF"
-                android:onClick="numberClick"
                 android:textSize="42sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:background="#778899"
+                android:background="#870D0D"
                 android:gravity="center"
-                android:text="-"
                 android:onClick="operationClick"
+                android:text="-"
                 android:textColor="#FFFFFF"
                 android:textSize="42sp" />
 
@@ -195,6 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
                 android:onClick="numberClick"
                 android:text="1"
@@ -205,19 +213,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
+                android:onClick="numberClick"
                 android:text="2"
                 android:textColor="#FFFFFF"
-                android:onClick="numberClick"
                 android:textSize="42sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
-                android:text="3"
                 android:onClick="numberClick"
+                android:text="3"
                 android:textColor="#FFFFFF"
                 android:textSize="42sp" />
 
@@ -225,9 +235,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:background="#778899"
-                android:onClick="operationClick"
+                android:background="#0F7DAF"
                 android:gravity="center"
+                android:onClick="operationClick"
                 android:text="+"
                 android:textColor="#FFFFFF"
                 android:textSize="42sp" />
@@ -244,37 +254,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#0838E6"
                 android:gravity="center"
+                android:onClick="numberClick"
                 android:text="."
                 android:textColor="#FFFFFF"
-                android:onClick="numberClick"
                 android:textSize="42sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#46FF00"
                 android:gravity="center"
+                android:onClick="numberClick"
                 android:text="0"
                 android:textColor="#FFFFFF"
-                android:onClick="numberClick"
                 android:textSize="42sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="#0838E6"
                 android:gravity="center"
+                android:onClick="delClick"
                 android:text="DEL"
                 android:textColor="#FFFFFF"
-                android:onClick="delClick"
                 android:textSize="23sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:background="#FF0000"
+                android:background="#850F0F"
                 android:gravity="center"
                 android:onClick="equalsClick"
                 android:text="="
@@ -284,7 +297,6 @@
         </TableRow>
 
     </TableLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
